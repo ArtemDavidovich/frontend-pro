@@ -3,8 +3,6 @@ import './profileCard.css'
 /* eslint-disable react/prop-types */
 function ProfileCard({character}) {
 
-    const {image, name, profession, hobby} = character;
-
     return (
         <div className="profileCardContainer">
             <div className='profileCardBackground'>
@@ -23,4 +21,3 @@ function ProfileCard({character}) {
 /* eslint-enable react/prop-types */
 
 export default ProfileCard;
-
