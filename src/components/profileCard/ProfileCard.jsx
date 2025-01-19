@@ -1,5 +1,6 @@
 import './profileCard.css'
 
+/* eslint-disable react/prop-types */
 function ProfileCard({character}) {
 
     return (
@@ -17,5 +18,6 @@ function ProfileCard({character}) {
         </div>
     )
 }
+/* eslint-enable react/prop-types */
 
 export default ProfileCard;

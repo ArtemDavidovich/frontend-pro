@@ -21,17 +21,15 @@ function Homework02(){
         profession: 'Medical Ninja',
         hobby: 'Reading'
     };
-
-    
+  
         return (
         <div>
+            <h1>Naruto Characters</h1>,        
             <ProfileCard character={naruto} />,
             <ProfileCard character={sasuke} />,
             <ProfileCard character={sakura} />
         </div>
-        );
-        
-    
+        );    
 };
 
 export default Homework02;
