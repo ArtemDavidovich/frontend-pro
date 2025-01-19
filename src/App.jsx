@@ -1,6 +1,7 @@
 // * импорты
 import "./App.css";
 import Homework01 from "./homeworks/homework01/Homework01";
+import Homework02 from "./homeworks/homework02/Homework02";
 import Lesson01 from "./lessons/lesson01/Lesson01";
 import Lesson02 from './lessons/lesson02/Lesson02'
 
@@ -17,7 +18,7 @@ function App() {
     // jsx компоненты возвращают xml верстку
     // динамические данные из тела функции мы можем вставлять в теги и использовать на странице
     <>
-      <Lesson02 />
+      <Homework02 />
     </>
   );
 }
