@@ -3,8 +3,8 @@
 
 import './myButton.css'
 
-function MyButton({text, func}) {
-  return <button onClick={func} className='myButton'>{text}</button>;
+function MyButton({text, func, type}) {
+  return <button type={type} onClick={func} className='myButton'>{text}</button>;
 }
 
 export default MyButton;
