@@ -3,8 +3,13 @@
 
 import './myButton.css'
 
-function MyButton() {
-  return <button className='myButton'>Click me</button>;
+function MyButton({text, func}) {
+  return <button onClick={func} className='myButton'>{text}</button>;
 }
 
 export default MyButton;
+
+// * компонент MyButton должен принимать props: text - с текстом кнопки, func - с  функцией, которая сработает по нажатию на кнопку
+
+// для того чтобы функция отработала на кнопке присвойте ей атрибут onClick внутри кнопки
+// <button onClick={...}>Click me!</button>
