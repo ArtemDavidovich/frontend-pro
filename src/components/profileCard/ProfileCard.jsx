@@ -3,7 +3,8 @@ import './profileCard.css'
 /* eslint-disable react/prop-types */
 function ProfileCard({character}) {
 
-    return (
+    return (        
+        
         <div className="profileCardContainer">
             <div className='profileCardBackground'>
                 <div className="profileCard">
@@ -16,6 +17,7 @@ function ProfileCard({character}) {
                 </div>
             </div>
         </div>
+        
     )
 }
 /* eslint-enable react/prop-types */
