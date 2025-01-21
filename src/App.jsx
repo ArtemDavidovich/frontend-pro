@@ -6,6 +6,7 @@ import Homework03 from "./homeworks/homework03/Homework03";
 import Lesson01 from "./lessons/lesson01/Lesson01";
 import Lesson02 from './lessons/lesson02/Lesson02'
 import Lesson03 from "./lessons/lesson03/Lesson03";
+import Lesson04 from "./lessons/lesson04/Lesson04";
 
 // * объявление функции из компонента App
 // функция называется по названию компонента
@@ -20,7 +21,7 @@ function App() {
     // jsx компоненты возвращают xml верстку
     // динамические данные из тела функции мы можем вставлять в теги и использовать на странице
     <>
-      <Homework03 />
+      <Lesson04 />
     </>
   );
 }
