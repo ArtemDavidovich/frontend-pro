@@ -2,7 +2,7 @@
 // нужно выбрать имя переменной, в которой будут содержаться импортируемые данные и указать путь
 import reactImg from "../../assets/react.svg";
 
-export default function Lesson01() {
+ function Lesson01() {
   return (
     <div>
       {/* для того, чтобы воспользоваться данными  из переменных, используем фигурные скобки {}*/}
@@ -16,4 +16,6 @@ export default function Lesson01() {
     </div>
   );
 }
+
+export default Lesson01;
 

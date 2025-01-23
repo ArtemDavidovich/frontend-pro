@@ -1,7 +1,7 @@
 import MyButton from "../../components/myButton/MyButton"
 
 
-export default function Lesson02(){
+function Lesson02(){
     const element = <h4>Это JSX элемент из переменной element!</h4>
     const text = 'это строка из переменной text..'
 
@@ -51,3 +51,5 @@ export default function Lesson02(){
         </div>
     )
 }
+
+export default Lesson02;

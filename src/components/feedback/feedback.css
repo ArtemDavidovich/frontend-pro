@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    justify-content: space-between;        
+    justify-content: space-between;
+          
 }
 
 .divHmwrk04 > h2{
@@ -17,8 +18,7 @@
     border-radius: 20px;
     padding: 20px;
     background-color: rgba(0, 128, 251, 0.5);
-    max-width: 200px;
-    width: 100%;
+    max-width: 250px;        
 }
 
 .containerHmwrk04 > h1{
